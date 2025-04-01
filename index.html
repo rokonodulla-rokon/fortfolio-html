@@ -6,12 +6,126 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <header>
+    <nav>
+        <ul>        
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+    </nav>
+    <header id="intro">
         <h1>Rokonodulla Rokon</h1>
 <p>
-   Web Developer & Computer Seience Student.
+   <em>Web Developer & Computer Seience Student.</em>
 </p>
+<a target="_blank" href="https://github.com/rokonodulla-rokon/fortfolio-html"><img src="./images/rokon.jpg" alt="Rokonodulla Rokon" height="150"></a>
     </header>
-    
-</body>
+    <section id="about">
+        <h2>About Me</h2>
+        <p><b>Experience:</b> <mark>5 Years</mark> experience in web development </p>
+        <p><b>Education:</b> BSc in Computer Science and Engineering</p>
+    </section>
+    <section id="skills">
+      
+        <H2>Skills</H2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>SL. No.</th>
+                    <th>Technology</th>
+                    <th>Proficiency</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>CSS</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>React.js</d>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Angular.js</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Node.js</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Express.js</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>MongoDB</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>TypeScript</td>
+                    <td>Expert</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <a target="_blank" href="https://github.com/rokonodulla-rokon/fortfolio-html">Portfolio Website</a>
+            </li>
+            <li>Blog Website</li>
+            <li>E-commerce Website</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required/>
+            </div>
+            <div>
+                <label for="phone">Phone No.:</label>
+            <input type="phone" id="phone" name="phone" required />
+            </div>
+            <div>
+                <label for="massage">Massage Me:</label>
+            <textarea name="massage" id="massage" cols="20" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright reserved by &copy; Rokonodulla ROkon</p>
+        <a href="tel:01737322378">Call Me</a>
+        <a href="mailto:rokon.pmg@gmail.com">Email Me</a>
+    </footer>    
+    </body>
 </html>
